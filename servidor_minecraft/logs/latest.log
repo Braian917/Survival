@@ -1,0 +1,747 @@
+[16:27:58] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.18.2
+[16:28:04] [ForkJoinPool-1-worker-1/WARN]: Mod naturalist uses the version 5.0pre3 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0pre3'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:28:04] [main/WARN]: Warnings were found!
+ - Mod 'Alloy Forgery' (alloy_forgery) 2.1.2+1.20 recommends version 12.0.0 or later of roughlyenoughitems, which is missing!
+	 - You should install version 12.0.0 or later of roughlyenoughitems for the optimal experience.
+[16:28:04] [main/INFO]: Loading 213 mods:
+	- advancednetherite 2.1.3-1.20.1
+	- alloy_forgery 2.1.2+1.20
+	- architectury 9.2.14
+	- attributefix 21.0.4
+	- aviator_dream 2.0.0
+	- balm 7.3.37
+	   \-- kuma_api 20.1.12
+	- bettercombat 1.8.6+1.20.1
+	- betterdeserttemples 1.20-Fabric-3.0.3
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.4
+	- betterendisland 1.20-Fabric-2.0.6
+	- betterfortresses 1.20-Fabric-2.0.6
+	- bettermineshafts 1.20-Fabric-4.0.4
+	- bettermobcombat 1.3.0
+	- betteroceanmonuments 1.20-Fabric-3.0.4
+	- betterstrongholds 1.20-Fabric-4.0.3
+	- bloodnparticles 1.4.0
+	- cardinal-components 5.2.3
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-block 5.2.3
+	   |-- cardinal-components-chunk 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- cardinal-components-item 5.2.3
+	   |-- cardinal-components-level 5.2.3
+	   |-- cardinal-components-scoreboard 5.2.3
+	   \-- cardinal-components-world 5.2.3
+	- cicada 0.14.3+1.20.1
+	   \-- org_yaml_snakeyaml 2.2
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- corgilib 4.0.3.4
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- create 0.5.1-j-build.1631+mc1.20.1
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.11-4
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_accessors 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_base 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_config 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    |-- porting_lib_gui_utils 2.3.8+1.20.1
+	   |    |-- porting_lib_lazy_registration 2.3.8+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_utility 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_brewing 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_client_events 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_entity 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_mixin_extensions 2.3.8+1.20.1
+	   |-- porting_lib_extensions 2.3.8+1.20.1
+	   |    |-- porting_lib_attributes 2.3.8+1.20.1
+	   |    |-- porting_lib_common 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_models 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    |-- porting_lib_fluids 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_networking 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_obj_loader 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.8+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_tool_actions 2.3.8+1.20.1
+	   |    \-- porting_lib_core 2.3.8+1.20.1
+	   |-- porting_lib_transfer 2.3.8+1.20.1
+	   |    |-- porting_lib_core 2.3.8+1.20.1
+	   |    \-- porting_lib_fluids 2.3.8+1.20.1
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.79-MC1.20.1
+	        |-- com_google_code_findbugs_jsr305 3.0.2
+	        |-- porting_lib_data 2.1.1090+1.20
+	        |    \-- porting_lib_gametest 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             |-- porting_lib_gametest 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- createdieselgenerators 2.1.4
+	- creativecore 2.12.33
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cristellib 1.1.5
+	   \-- blue_endless_jankson 1.2.3
+	- cupboard 1.20.1-2.7
+	- darkmobs 1.1.9
+	- dataanchor 1.0.0.20
+	- dawn 5.0.0
+	   |-- terraform-shapes-api-v1 7.0.1
+	   \-- terraform-wood-api-v1 7.0.1
+	- deeperdarker 1.3.3
+	   \-- customportalapi 0.0.1-beta64-1.20
+	- durabilitytooltip 1.1.6
+	- dusk 1.20.1-3.7
+	- eldritch_mobs 1.15.2
+	   |-- polymer-blocks 0.5.15+1.20.1
+	   |-- polymer-core 0.5.15+1.20.1
+	   |    |-- polymer-networking 0.5.15+1.20.1
+	   |    |    \-- polymer-common 0.5.15+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.15+1.20.1
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- enhancedcelestials 1.20.1-5.0.3.1
+	- enhancedvisuals 1.8.2
+	- eternal_attributes 1.0.0
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 4.3.4
+	- fastboot 1.2-fabric
+	- fastmove 1.0.8
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.3
+	- framework 0.7.15
+	   \-- org_javassist_javassist 3.29.2-GA
+	- geckolib 4.8.2
+	   \-- com_eliotlash_mclib_mclib 20
+	- glitchcore 0.0.1.1
+	   \-- net_jodah_typetools 0.6.3
+	- immersive_aircraft 1.4.0+1.20.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- java 17
+	- jei 15.20.0.125
+	- k_turrets 1.0.5-1.20.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- lithium 0.11.3
+	- magistuarmory 9.31
+	- magistuarmoryaddon 1.22
+	- majruszlibrary 7.0.8
+	- majruszsdifficulty 1.9.10
+	- man_of_many_planes 0.2.0+1.20.1
+	- minecraft 1.20.1
+	- mobplayeranimator 1.3.3
+	- mru 1.0.4+1.20.1+fabric
+	- mutantmonsters 8.0.7
+	   \-- extensibleenums 7.0.1
+	- mutantszombies 1.3.1-Fabric-mc1.20.1
+	- naturalist 5.0pre3
+	   \-- midnightlib 1.4.1
+	- necronomicon 1.6.0
+	- owo 0.11.1+1.20
+	- paxi 1.20-Fabric-4.0
+	- platform 1.2.11.3
+	- player-animator 1.0.2-rc1+1.20
+	- promenade 4.1.1
+	   \-- biolith 1.0.0-alpha.8
+	        \-- terraform-surfaces-api-v1 7.0.1
+	- puzzleslib 8.1.32
+	   \-- puzzlesaccessapi 20.1.1
+	- railways 1.6.9+fabric-mc1.20.1
+	   \-- mm 2.3
+	- refurbished_furniture 1.0.20
+	- regions_unexplored 0.5.6+1.20.1
+	- satako 2.0.4-1.20.1
+	- seriousplayeranimations 1.1.1
+	- skinlayers3d 1.10.1
+	   |-- transition 1.0.11
+	   \-- trender 1.0.10
+	- structory 1.3.5
+	- structory_towers 1.0.7
+	- supermartijn642configlib 1.1.8+a
+	- tacz 0.2.0-forge1.1.7
+	   |-- cardinal-components-base 5.2.3
+	   |-- cardinal-components-entity 5.2.3
+	   |-- com_github_figuramc_luaj_luaj-core 3.0.8-figura
+	   |-- com_github_figuramc_luaj_luaj-jse 3.0.8-figura
+	   |-- mkb 1.2.0
+	   |-- org_apache_bcel_bcel 6.6.1
+	   \-- org_apache_commons_commons-math3 3.6.1
+	- terrablender 3.0.1.10
+	- toughasnails 9.2.0.171
+	   \-- net_jodah_typetools 0.6.3
+	- underground_bunkers 1.0.3
+	- vanillabackport 1.1.5.1
+	- waystones 14.1.17
+	- yungsapi 1.20-Fabric-4.0.6
+[16:28:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Survival/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:28:06] [main/INFO]: Compatibility level set to JAVA_17
+[16:28:07] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:28:07] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:28:07] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
+[16:28:07] [main/WARN]: Reference map 'puzzlesaccessapi.common.refmap.json' for puzzlesaccessapi.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:28:07] [main/WARN]: Reference map 'puzzlesaccessapi.fabric.refmap.json' for puzzlesaccessapi.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:28:07] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:28:08] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[16:28:08] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[16:28:08] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[16:28:08] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[16:28:08] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[16:28:08] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[16:28:08] [main/WARN]: Error loading class: forge/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: forge/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask)
+[16:28:08] [main/WARN]: Error loading class: fabric/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask (java.lang.ClassNotFoundException: fabric/net/mca/entity/ai/brain/tasks/ExtendedMeleeAttackTask)
+[16:28:08] [main/WARN]: Error loading class: net/minecraft/class_572 (java.lang.ClassNotFoundException: net/minecraft/class_572)
+[16:28:08] [main/WARN]: @Mixin target net.minecraft.class_572 was not found fastmove.mixins.json:BipedEntityModelMixin from mod fastmove
+[16:28:08] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[16:28:08] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[16:28:08] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[16:28:09] [main/WARN]: Error loading class: net/minecraft/class_972 (java.lang.ClassNotFoundException: net/minecraft/class_972)
+[16:28:09] [main/WARN]: @Mixin target net.minecraft.class_972 was not found seriousplayeranimations.mixins.json:CapeRenderMixin from mod seriousplayeranimations
+[16:28:09] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType)
+[16:28:09] [main/WARN]: Error loading class: net/mehvahdjukaar/moonlight/api/set/wood/WoodType (java.lang.ClassNotFoundException: net/mehvahdjukaar/moonlight/api/set/wood/WoodType)
+[16:28:09] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[16:28:10] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:28:11] [main/WARN]: Method overwrite conflict for getCustomData in porting_lib_entity.mixins.json:common.EntityMixin from mod porting_lib_entity, previously written by com.blackgear.platform.core.mixin.fabric.EntityMixin. Skipping method.
+[16:28:13] [main/WARN]: Mixin apply for mod necronomicon failed necronomicon-common.mixins.json:item.AnimatedItemNameMixin from mod necronomicon -> net.minecraft.class_1799: org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$che000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+org.spongepowered.asm.mixin.injection.throwables.InvalidInjectionException: Critical injection failure: @Inject annotation on getName could not find any targets matching 'getHoverName' in net/minecraft/class_1799. No refMap loaded. [handler$che000$necronomicon$getName(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V -> Parse ->  -> Validate Targets]
+	at org.spongepowered.asm.mixin.injection.selectors.TargetSelectors.validate(TargetSelectors.java:346) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.readAnnotation(InjectionInfo.java:369) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:340) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.<init>(InjectionInfo.java:331) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo.<init>(CallbackInjectionInfo.java:48) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo$InjectorEntry.create(InjectionInfo.java:196) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.injection.struct.InjectionInfo.parse(InjectionInfo.java:664) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.prepareInjections(MixinTargetContext.java:1399) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.prepareInjections(MixinApplicatorStandard.java:731) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:315) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:246) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.16.5+mixin.0.8.7.jar:0.16.5+mixin.0.8.7]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.18.2.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraft.class_5620.method_32211(class_5620.java:39) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_654(class_156.java:436) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5620.method_32206(class_5620.java:39) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5620.<clinit>(class_5620.java:33) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5546.<init>(class_5546.java:17) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2246.<clinit>(class_2246.java:477) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2358.method_10199(class_2358.java:326) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2966.method_12851(class_2966.java:54) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:109) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[16:28:15] [main/WARN]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$did000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[16:28:18] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[16:28:18] [main/WARN]: Method overwrite conflict for getPools in porting_lib_tool_actions.mixins.json:BuilderAccessor from mod porting_lib_tool_actions, previously written by com.blackgear.platform.core.mixin.fabric.LootTableBuilderMixin. Skipping method.
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc1
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:douglas_dc2
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:douglas_c47
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:lockheed_l1049g
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:test
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:dehavilland_dh106
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviib3m
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:fokker_fviia
+[16:28:19] [main/ERROR]: No data fixer registered for aviator_dream:toyota_stout_k100
+[16:28:19] [main/INFO]: Reflections took 39 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 3 values
+[16:28:19] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:28:19] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[16:28:19] [main/INFO]: Biolith is initializing...
+[16:28:19] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[16:28:19] [main/INFO]: [STDOUT]: Blood N' Particles mod initialized!
+[16:28:19] [main/INFO]: Initializing network...
+[16:28:19] [main/INFO]: Initialized network!
+[16:28:20] [Cicada thread 0/INFO]: 'i showed you my huge tater pls respond'
+[16:28:21] [main/INFO]: Loaded config for: cupboard.json
+[16:28:22] [main/ERROR]: No data fixer registered for crystallized_amber
+[16:28:22] [main/ERROR]: No data fixer registered for sculk_jaw
+[16:28:22] [main/INFO]: Channelling eldritch energies...
+[16:28:22] [main/INFO]: initializing FastMove :3
+[16:28:22] [main/INFO]: Reflections took 126 ms to scan 1 urls, producing 9 keys and 75 values
+[16:28:23] [main/ERROR]: No data fixer registered for seat
+[16:28:23] [main/ERROR]: No data fixer registered for water_purifier
+[16:28:23] [main/ERROR]: No data fixer registered for temperature_gauge
+[16:28:23] [main/ERROR]: No data fixer registered for thermoregulator
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:bamboo_hopper
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[16:28:23] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[16:28:23] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[16:28:23] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[16:28:23] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[16:28:23] [main/INFO]: [STDOUT]: Hello from Epic Knights Addon init!
+[16:28:24] [main/ERROR]: No data fixer registered for cerberus
+[16:28:24] [main/ERROR]: No data fixer registered for creeperling
+[16:28:24] [main/ERROR]: No data fixer registered for cursed_armor
+[16:28:24] [main/ERROR]: No data fixer registered for tank
+[16:28:24] [main/ERROR]: No data fixer registered for man_of_many_planes:scarlet_biplane
+[16:28:24] [main/ERROR]: No data fixer registered for man_of_many_planes:economy_plane
+[16:28:24] [main/INFO]: Definitely not up to no good
+[16:28:24] [main/ERROR]: No data fixer registered for creeper_minion
+[16:28:24] [main/ERROR]: No data fixer registered for mutant_creeper
+[16:28:24] [main/ERROR]: No data fixer registered for mutant_enderman
+[16:28:24] [main/ERROR]: No data fixer registered for mutant_skeleton
+[16:28:24] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[16:28:24] [main/ERROR]: No data fixer registered for mutant_zombie
+[16:28:24] [main/ERROR]: No data fixer registered for spider_pig
+[16:28:24] [main/ERROR]: No data fixer registered for body_part
+[16:28:24] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[16:28:24] [main/ERROR]: No data fixer registered for endersoul_clone
+[16:28:24] [main/ERROR]: No data fixer registered for endersoul_fragment
+[16:28:24] [main/ERROR]: No data fixer registered for throwable_block
+[16:28:24] [main/INFO]: Constructing common components for mutantmonsters:main
+[16:28:24] [main/INFO]: Loading common config for mutantmonsters
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:blister_zombie
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:crawler
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:spitter
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:spitter_projectile
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:zombie_brute
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:split_head_zombie
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:mutant_brute
+[16:28:24] [main/ERROR]: No data fixer registered for mutantszombies:rotten_mutant
+[16:28:24] [main/INFO]: Registering Mod Items for mutantszombies
+[16:28:24] [main/INFO]: Registering Sounds for mutantszombies
+[16:28:24] [main/INFO]: Necronomicon Initialized
+[16:28:24] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[16:28:24] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[16:28:24] [main/INFO]: Snakes are inherently funny
+[16:28:24] [FileWatcher-1-thread-1/INFO]: Reloading common config for mutantmonsters
+[16:28:24] [main/INFO]: Constructing common components for puzzleslib:main
+[16:28:24] [main/INFO]: Steam 'n' Rails v1.6.9 initializing! Commit hash: 1219c3f788bf8add5c41073bcf9326c5815c2818 on Create version: 0.5.1j on platform: Fabric
+[16:28:25] [main/INFO]: Registered bogey styles from railways
+[16:28:25] [main/INFO]: Registering data fixers
+[16:28:25] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[16:28:25] [main/INFO]: Registering tracks for Hex Casting
+[16:28:25] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[16:28:25] [main/INFO]: Registering tracks for Blue Skies
+[16:28:25] [main/INFO]: Registering tracks for Twilight Forest
+[16:28:25] [main/INFO]: Registering tracks for Biomes O' Plenty
+[16:28:25] [main/INFO]: Registering tracks for Nature's Spirit
+[16:28:25] [main/INFO]: Registering tracks for Dreams and Desires
+[16:28:25] [main/INFO]: Registering tracks for Quark
+[16:28:25] [main/INFO]: Registering tracks for TerraFirmaCraft
+[16:28:25] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[16:28:25] [main/INFO]: [Regions Unexplored] generating and loading config
+[16:28:25] [main/INFO]: Loading up some Serious Animations.
+[16:28:25] [main/INFO]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[16:28:25] [main/INFO]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[16:28:25] [main/ERROR]: No data fixer registered for target_minecart
+[16:28:25] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[16:28:25] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[16:28:25] [main/INFO]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[16:28:25] [main/INFO]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[16:28:25] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[16:28:25] [main/INFO]: Registered region vanillabackport:overworld to index 3 for type OVERWORLD
+[16:28:25] [main/INFO]: Hello Fabric world!
+[16:28:25] [main/ERROR]: No data fixer registered for creaking
+[16:28:25] [main/ERROR]: No data fixer registered for happy_ghast
+[16:28:25] [main/ERROR]: No data fixer registered for pale_oak_boat
+[16:28:25] [main/ERROR]: No data fixer registered for pale_oak_chest_boat
+[16:28:25] [main/ERROR]: No data fixer registered for armadillo
+[16:28:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[16:28:26] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 4 values
+[16:28:26] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[16:28:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:28:38] [main/INFO]: Start scanning for gun packs in /workspaces/Survival/servidor_minecraft/tacz
+[16:28:38] [main/INFO]: - [TACZ1.1.5+]ClassicRCCRP v1.1.3 Release hotfix2.zip, Main namespace: ccrp
+[16:28:38] [main/INFO]: - Cold War from 1947-1991 v0.51.zip, Main namespace: rainforest
+[16:28:38] [main/INFO]: - The Division pack_ver.0.3.3.zip, Main namespace: gz
+[16:28:38] [main/INFO]: - Suffuse-GunSmoke-Pack1.0.7--hotfix.zip, Main namespace: suffuse
+[16:28:38] [main/ERROR]: Failed to load extension from ZIP TTI_Gunpack-v1.0.0.zip. Error: No gunpack.meta.json found
+[16:28:38] [main/INFO]: - ChocolateMan V1.2.3.zip, Main namespace: qkl
+[16:28:38] [main/INFO]: - tacz_default_gun, Main namespace: tacz
+[16:28:38] [main/ERROR]: Failed to load extension from ZIP qrosshair0.2.1c.zip. Error: No gunpack.meta.json found
+[16:28:38] [main/INFO]: - RFP v1.0.8 fix1.zip, Main namespace: kpp
+[16:28:38] [main/INFO]: - PersonalArmsR8.zip, Main namespace: hk
+[16:28:38] [main/INFO]: - 82laffey1.1.2(1).zip, Main namespace: mk16
+[16:28:38] [main/INFO]: - [TACZ]DFP-Better New Weapon EarlyAcess2.zip, Main namespace: bnw
+[16:28:38] [main/INFO]: Found 10 possible gunpack(s) and added them to resource set.
+[16:28:40] [main/WARN]: obscure_api:knowledge missing from registry, but requested!
+[16:28:40] [main/WARN]: obscure_api:fury missing from registry, but requested!
+[16:28:40] [main/WARN]: obscure_api:rush missing from registry, but requested!
+[16:28:40] [main/WARN]: undeadnights:lure_horde missing from registry, but requested!
+[16:28:40] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[16:28:40] [Worker-Main-1/ERROR]: Couldn't load tag blood_n_particles:mods/alexs_mobs as it is missing following references: alexsmobs:grizzly_bear (from fabric)
+[16:28:42] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:darkening_templates as it is missing following references: magistuarmoryaddon:darkening_template (from fabric)
+[16:28:42] [Worker-Main-3/ERROR]: Couldn't load tag magistuarmory:gilding_templates as it is missing following references: magistuarmoryaddon:gilding_template (from fabric)
+[16:28:42] [Worker-Main-3/ERROR]: Couldn't load tag c:silver_nuggets as it is missing following references: magistuarmoryaddon:silver_nugget (from fabric)
+[16:28:42] [Worker-Main-2/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43.json, ignoring
+[16:28:42] [Worker-Main-2/WARN]: Invalid path in datapack: mk16:recipes/attachments/553+g43f.json, ignoring
+[16:28:43] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:darkblued_sallet_from_dark_gothic_helmet_darkening
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[16:28:43] [main/ERROR]: Parsing error loading recipe magistuarmoryaddon:darkblued_armet_from_dark_knight_helmet_darkening
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'minecraft:smithing'
+	at net.minecraft.class_1863.method_17875(class_1863.java:134) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_1863.method_17720(class_1863.java:134) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_20705(class_1863.java:56) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[16:28:43] [main/INFO]: Loaded 37 recipes
+[16:28:43] [main/INFO]: Loaded 4907 advancements
+[16:28:44] [main/ERROR]: Failed to load data file suffuse:knife
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonGunIndexSerializer.deserialize(CommonGunIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[16:28:44] [main/ERROR]: Failed to load data file qkl:mu73_bayonet
+com.google.gson.JsonParseException: there is no corresponding data file
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:19) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.serialize.CommonAttachmentIndexSerializer.deserialize(CommonAttachmentIndexSerializer.java:12) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.parseJson(JsonDataManager.java:75) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.JsonDataManager.apply(JsonDataManager.java:64) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.apply(CommonDataManager.java:42) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at com.tacz.guns.resource.manager.CommonDataManager.method_18788(CommonDataManager.java:22) ~[TACZ-Refabricated-1.20.1-0.2.0-forge1.1.7.jar:?]
+	at net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43498(class_156.java:950) ~[server-intermediary.jar:?]
+	at net.minecraft.class_156.method_43499(class_156.java:938) ~[server-intermediary.jar:?]
+	at net.minecraft.server.Main.main(Main.java:160) ~[server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[fabric-server-launch.jar:1.0.1]
+[16:28:44] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 56 translation keys
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:44] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.kinetics.waterwheel.WaterWheelStructuralBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_638. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:45] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:47] [main/WARN]: Lithium Class Analysis Error: Class com.simibubi.create.content.trains.bogey.AbstractBogeyBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_4587. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[16:28:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[16:28:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[16:28:48] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld11
+[16:28:49] [main/INFO]: Applied 3795 biome modifications to 147 of 147 new biomes in 136.2 ms
+[16:28:49] [main/INFO]: [majruszlibrary.json] Reloading configuration file took 1 milliseconds
+[16:28:49] [main/INFO]: [majruszsdifficulty.json] Reloading configuration file took 8 milliseconds
+[16:28:49] [Server thread/INFO]: Loading server config for mutantmonsters
+[16:28:49] [Server thread/INFO]: Loading server configs...
+[16:28:49] [Server thread/ERROR]: Registry 'minecraft:wolf_sound_variant' was empty after loading
+[16:28:49] [Server thread/ERROR]: Registry 'minecraft:cow_variant' was empty after loading
+[16:28:49] [Server thread/ERROR]: Registry 'minecraft:chicken_variant' was empty after loading
+[16:28:49] [Server thread/ERROR]: Registry 'minecraft:pig_variant' was empty after loading
+[16:28:49] [Server thread/ERROR]: Registry 'minecraft:wolf_variant' was empty after loading
+[16:28:49] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:28:49] [Server thread/INFO]: Loading properties
+[16:28:49] [Server thread/INFO]: Default game type: SURVIVAL
+[16:28:49] [Server thread/INFO]: Generating keypair
+[16:28:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:28:49] [Server thread/INFO]: Using epoll channel type
+[16:28:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:28:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:28:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:28:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:28:49] [Server thread/INFO]: Preparing level "world"
+[16:28:49] [FileWatcher-1-thread-1/INFO]: Reloading server config for mutantmonsters
+[16:28:56] [Server thread/INFO]: Ignoring world 'deeperdarker:otherside'; unknown dimension type: deeperdarker:otherside
+[16:28:56] [Server thread/INFO]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[16:28:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:28:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:28:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:28:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:28:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:28:58] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:28:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:29:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:29:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:29:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:29:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:29:01] [Worker-Main-3/INFO]: Preparing spawn area: 11%
+[16:29:01] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[16:29:02] [Server thread/INFO]: Time elapsed: 5794 ms
+[16:29:02] [Server thread/INFO]: Done (12.771s)! For help, type "help"
+[16:29:02] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 211522 bytes (in 22 string chunks with the size of 10000)
+[16:29:02] [Server thread/INFO]: Loaded config for: dusk.json
+[16:29:02] [Server thread/INFO]: Loaded values for 30 compatible attributes.
+[16:29:02] [Server thread/INFO]: Loaded 30 values from config.
+[16:29:02] [Server thread/INFO]: Saving config file. 30 entries.
+[16:29:02] [Server thread/INFO]: Applying changes for 30 attributes.
+[16:29:02] [Server thread/INFO]: Possible lunar events for dimension "minecraft:overworld" are [enhancedcelestials:blood_moon, enhancedcelestials:super_moon, enhancedcelestials:blue_moon, enhancedcelestials:harvest_moon, enhancedcelestials:super_blue_moon, enhancedcelestials:super_harvest_moon, enhancedcelestials:super_blood_moon].
